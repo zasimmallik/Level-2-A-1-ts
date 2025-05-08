@@ -2,7 +2,7 @@
 
 The `keyof` keyword extracts the keys (property names) of a type as a union of string literals. It helps make your code safer by allowing only valid keys to be used.
 
-##Example:
+## Example:
 
 ```ts
 type User = {
@@ -33,7 +33,7 @@ console.log(getValue(user, "name")); // Works
 
 TypeScript adds static types to JavaScript, helping you catch errors early and write more robust code.
 
-##Here's how it helps:
+## Here's how it helps:
 
 * Catches errors: early Detects mistakes during development, before runtime
 * Better autocomplete: Your editor suggests valid methods and variables
@@ -42,7 +42,7 @@ TypeScript adds static types to JavaScript, helping you catch errors early and w
 * Scales better: Ideal for managing large projects and reducing bugs
 
 
-##Simple Example:
+## Simple Example:
 
 ```ts
 function greet(name: string) {
